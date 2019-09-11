@@ -1,0 +1,77 @@
+
+* {
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    
+    width: 8.5in;
+    height: 11in;
+    margin: 0px auto 0px auto;
+    
+}
+
+.main-body {
+    width: 73%;
+    float: right;
+    padding: 8px 10px 10px 10px;
+    text-align: justify;
+}
+
+.side-bar {
+    width: 27%;
+    float: left;
+    padding: 0 0 5px 6px;
+    background-color: #9e9da2
+}
+
+.info {
+    background-color: 
+}
+
+p {
+    font-family: "Georgia";
+    font-size: 10.5pt;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+.position,.company,.location,.date-worked {
+    float: left;
+    padding-right: 2px;
+    font-weight: 700;
+    font-size: 12pt;
+}
+
+.position {
+    
+    
+}
+
+.company {
+    
+    
+}
+
+.location {
+    
+}
+
+
+
+.date-worked {
+    
+}
+
+
+.header {
+    font-weight: 600;
+    font-size: 20px;
+    
+}
