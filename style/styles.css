@@ -13,37 +13,14 @@ border-color: gray;
 width: 6%;
 }
 
+h1, h3 {
+  color: #66BFBF;
+}
+
 body {
-  
+
 background-color: #EAF6F6;
 
-}
-
-
-.container {
-
-    width: 8.5in;
-    height: 11in;
-    margin: 0px auto 0px auto;
-
-}
-
-.main-body {
-    width: 73%;
-    float: right;
-    padding: 8px 10px 10px 10px;
-    text-align: justify;
-}
-
-.side-bar {
-    width: 27%;
-    float: left;
-    padding: 0 0 5px 6px;
-    background-color: #9e9da2
-}
-
-.info {
-    background-color:
 }
 
 p {
@@ -51,39 +28,68 @@ p {
     font-size: 10.5pt;
 }
 
-h1 {
+
+.container-cv {
+
+    width: 8.5in;
+    height: 11in;
+    margin: 0px auto 0px auto;
+
+}
+
+.main-body-cv {
+    width: 73%;
+    float: right;
+    padding: 8px 10px 10px 10px;
+    text-align: justify;
+}
+
+.side-bar-cv {
+    width: 27%;
+    float: left;
+    padding: 0 0 5px 6px;
+    background-color: #9e9da2
+}
+
+.info-cv {
+    background-color:
+}
+
+
+
+.cvname {
     font-size: 35px;
 }
 
-.position,.company,.location,.date-worked {
+.position-cv,.company-cv,.location-cv,.date-worked-cv {
     float: left;
     padding-right: 2px;
     font-weight: 700;
     font-size: 12pt;
 }
 
-.position {
+.position-cv {
 
 
 }
 
-.company {
+.company-cv {
 
 
 }
 
-.location {
+.location-cv {
 
 }
 
 
 
-.date-worked {
+.date-worked-cv {
 
 }
 
 
-.header {
+.header-cv {
     font-weight: 600;
     font-size: 20px;
 
