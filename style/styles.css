@@ -5,14 +5,27 @@
     box-sizing: border-box;
 }
 
+hr {
+border-style: none;
+border-top-style: dotted;
+border-width: 6px;
+border-color: gray;
+width: 6%;
+}
+
+body {
+  
+background-color: #EAF6F6;
+
+}
 
 
 .container {
-    
+
     width: 8.5in;
     height: 11in;
     margin: 0px auto 0px auto;
-    
+
 }
 
 .main-body {
@@ -30,7 +43,7 @@
 }
 
 .info {
-    background-color: 
+    background-color:
 }
 
 p {
@@ -50,28 +63,28 @@ h1 {
 }
 
 .position {
-    
-    
+
+
 }
 
 .company {
-    
-    
+
+
 }
 
 .location {
-    
+
 }
 
 
 
 .date-worked {
-    
+
 }
 
 
 .header {
     font-weight: 600;
     font-size: 20px;
-    
+
 }
