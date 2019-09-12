@@ -28,6 +28,10 @@ p {
     font-size: 10.5pt;
 }
 
+.profile-pic {
+
+  border-radius: 100%;
+}
 
 .container-cv {
 
