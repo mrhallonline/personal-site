@@ -1,58 +1,93 @@
-
+/*********resume*******/
 * {
-    margin: o;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 hr {
-border-style: none;
-border-top-style: dotted;
-border-width: 6px;
-border-color: gray;
-width: 6%;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 6px;
+    border-color: gray;
+    width: 25%;
+    margin: 0 auto;
+    padding: 5px 0;
 }
 
-h1, h3 {
-  color: #66BFBF;
+h1,
+h3 {
+    color: #D0E1F9;
+    font-family: 'Garamond', serif;
+    font-size: 35px;
+}
+
+h5 {
+
+    color: #D0E1F9;
+    font-family: 'Garamond', serif;
+    font-size: 14px;
+    margin: 2px auto;
+    text-align: center;
 }
 
 body {
 
-background-color: #EAF6F6;
-
+    background-color: #EAF6F6;
+    width: 50%;
+    
+    margin: 0px auto 0px auto;
 }
 
 p {
-    font-family: "Georgia";
-    font-size: 10.5pt;
+    font-family: "Merriweather";
+    font-size: 10pt;
 }
 
-.profile-pic {
-
-  border-radius: 100%;
+.knh{
+    padding-top: 10px;
+    text-align: center;
 }
 
-.container-cv {
+.header-cv {
+text-align: center;
+font-weight: 600;
+font-size: 20px;
+}
 
-    width: 8.5in;
-    height: 11in;
-    margin: 0px auto 0px auto;
+.header-cv-main {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 5px 0 5px ;
 
 }
 
-.main-body-cv {
-    width: 73%;
+.row {
+    padding: 4px 0px;
+
+}
+
+.side-row {
+    padding: 1px 2px 1px 5px;
+    color: #EAF6F6;
+    font-size: 11pt;
+    text-align: center;
+}
+
+.section-main {
+    width: 70%;
     float: right;
     padding: 8px 10px 10px 10px;
     text-align: justify;
+    background-color: #fff;
+    height: 11in;
 }
 
-.side-bar-cv {
-    width: 27%;
+.section-side {
+    width: 30%;
     float: left;
-    padding: 0 0 5px 6px;
-    background-color: #9e9da2
+    background-color: #4d648d;
+    height: 11in;
 }
 
 .info-cv {
@@ -65,36 +100,27 @@ p {
     font-size: 35px;
 }
 
-.position-cv,.company-cv,.location-cv,.date-worked-cv {
-    float: left;
-    padding-right: 2px;
-    font-weight: 700;
-    font-size: 12pt;
-}
-
-.position-cv {
-
-
-}
-
-.company-cv {
-
-
-}
-
-.location-cv {
-
-}
-
-
-
+.position-cv,
+.company-cv,
+.location-cv,
 .date-worked-cv {
-
+    float: left;
+    font-weight: 700;
+    font-size: 11pt;
 }
+
+.position-cv {}
+
+.company-cv {}
+
+.location-cv {}
+
+
+
+.date-worked-cv {}
 
 
 .header-cv {
-    font-weight: 600;
-    font-size: 20px;
+   
 
 }
