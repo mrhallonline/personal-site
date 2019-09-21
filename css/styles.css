@@ -1,5 +1,4 @@
 /************************regular elements*******************/
-
 a {
   color: #11999E;
   text-decoration: none;
@@ -40,6 +39,8 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   text-align: center;
+  margin: 5px auto;
+  width: 50%;
 }
 
 hr {
@@ -50,6 +51,13 @@ hr {
   border-color: #EAF6F6;
 }
 
+/***************************reusable elements******************/
+.row {
+  margin: 50px auto;
+  width: 65%;
+  text-align: left;
+  line-height: 2;
+}
 
 
 
@@ -97,39 +105,23 @@ hr {
 
 /*******************Experience***************/
 
-.experience {
-margin: 0 auto;
-width: 55%;
-}
 
 .experience li {
   list-style: none;
-  padding: 10px;
+  padding: 10px 0;
   text-align: justify;
   }
 
 
-.pub-row {
-  margin: 50px auto;
- 
-  width: 55%;
-  text-align: left;
-  line-height: 2;
-}
-
 .publications {}
 
-.pub-row li {
+.publications li {
   list-style: none;
   padding-left: 0;
   padding: 0 0 10px 0;
   text-align: left;
 }
 
-.pub-row h3 {
-  padding-left: 40px;
-
-}
 
 /***************************emphasis******************/
 .STEM {
@@ -174,14 +166,14 @@ width: 55%;
   width: 115px;
   float: left;
   border-radius: 50%;
-  margin-right: 30px;
+  margin-right: 15px;
 }
 
 .computer-img {
   float: right;
   width: 115px;
   border-radius: 50%;
-  margin-left: 30px;
+  margin-left: 5px;
 }
 
 
@@ -200,7 +192,6 @@ width: 55%;
   border-radius: 8px;
   border: 3px double #66BFBF;
   background: #66BFBF;
-  text-decoration: none;
 }
 
 .testbutton:hover {
@@ -226,7 +217,6 @@ width: 55%;
 .stars li {
 list-style: none;
 display: inline-block;
-
 }
 
 .icon {
@@ -244,12 +234,9 @@ display: inline-block;
 .icon-social-linkedin:hover {
   color: #0077b5;
 }
-
 .icon-social-twitter:hover {
   color: #55acee;
 }
-
-
 .icon-social-git-hub:hover {
   color: #4183c4
 }
