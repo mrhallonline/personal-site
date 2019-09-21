@@ -39,6 +39,7 @@ h3 {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
+  text-align: center;
 }
 
 hr {
@@ -47,8 +48,8 @@ hr {
   width: 5%;
   border-width: 6px;
   border-color: #EAF6F6;
-
 }
+
 
 
 
@@ -93,6 +94,20 @@ hr {
   text-align: left;
   line-height: 2;
 }
+
+/*******************Experience***************/
+
+.experience {
+margin: 0 auto;
+width: 55%;
+}
+
+.experience li {
+  list-style: none;
+  padding: 10px;
+  text-align: justify;
+  }
+
 
 .pub-row {
   margin: 50px auto;
@@ -156,7 +171,7 @@ hr {
 }
 
 .apple-img {
-  width: 25%;
+  width: 115px;
   float: left;
   border-radius: 50%;
   margin-right: 30px;
@@ -164,7 +179,7 @@ hr {
 
 .computer-img {
   float: right;
-  width: 25%;
+  width: 115px;
   border-radius: 50%;
   margin-left: 30px;
 }
@@ -175,7 +190,7 @@ hr {
 .testbutton {
   font-family: Montserrat;
   color: #FFFFFF !important;
-  font-size: 20px;
+  font-size: 12px;
   text-shadow: 1px 1px 3px #66BFBF;
   box-shadow: 1px 1px 1px #BEE2F9;
   padding: 10px 25px;
