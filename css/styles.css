@@ -8,26 +8,11 @@ a:hover {
   color: #4d648d;
 }
 
-p {
-  line-height: 2;
-  color: #40514E;
-  font-size: 16px;
-}
-
-body {
-  margin: 0;
-  text-align: center;
-  font-family: 'Merriweather', serif;
-  font-weight: 700;
-  font-size: 16px;
-  background-color: #d0e1f9
-}
-
 h1 {
-  margin: 50px auto 0 auto;
   color: #66BFBF;
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
+  margin: 50px auto 0 auto;
 }
 
 h2 {
@@ -53,10 +38,41 @@ hr {
   border-color: #283655;
 }
 
+header {
+  background-color: #283655;
+  line-height: 0.5;
+  margin: 0 0 50px 0;
+  padding: 50px 0;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.7)), url("../images/3DModel.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+body {
+  background-color: #d0e1f9;
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 2;
+  margin: 0;
+  text-align: center;
+}
+
+footer {
+  background-color: #283655;
+  height: 125px;
+  margin-top: 75px;
+  padding-top: 50px;
+  line-height: 2.25;
+}
 /***************************reusable elements******************/
 .row {
   margin: 50px auto;
-  width: 55%;
+  width: 70%;
   text-align: left;
   line-height: 1.6;
   font-size: 16px;
@@ -72,13 +88,7 @@ hr {
   margin: 0 auto;
 }
 
-.top-container {
-  background-color: #283655;
-  margin: 0 0 50px 0;
-  padding: 50px 0;
-  position: relative;
-  line-height: 0.5;
-}
+
 
 .middle-container {
   padding: 25px 0;
@@ -90,18 +100,11 @@ hr {
   margin: 50px auto;
 }
 
-.bottom-container {
-  background-color: #283655;
-  height: 125px;
-  margin-top: 75px;
-  padding-top: 50px;
-  line-height: 2.25;
 
-}
 
 .skill-row {
   margin: 50px auto;
-  width: 50%;
+  width: 65%;
   text-align: left;
   line-height: 2;
 }
@@ -181,6 +184,12 @@ hr {
   width: 15px;
   padding-right: 10px;
   border-radius: 50px;
+}
+
+.model {
+width: 100%;
+padding: 0;
+
 }
 
 
