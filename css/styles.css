@@ -14,7 +14,7 @@ h1 {
   color: #66BFBF;
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
-  margin: 50px auto 0 auto;
+  margin: 30px auto 0 auto;
 }
 
 h2 {
@@ -40,6 +40,8 @@ hr {
   border-color: #283655;
 }
 
+
+
 header {
   background-color: #283655;
   line-height: 0.5;
@@ -64,6 +66,10 @@ body {
   text-align: center;
 }
 
+.in-front {
+  z-index: 25;
+}
+
 footer {
   background-color: #283655;
   height: 125px;
@@ -78,6 +84,7 @@ footer {
   text-align: left;
   line-height: 1.6;
   font-size: 16px;
+  
 }
 
 
@@ -257,4 +264,21 @@ display: inline-block;
 }
 .icon-social-git-hub:hover {
   color: #4183c4
+}
+
+
+.intro {
+  /* line-height: 0.5;
+  margin: 0 auto;
+  padding: 50px 0; */
+
+}
+.stuck {
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top: 0px;
+  
+  
 }

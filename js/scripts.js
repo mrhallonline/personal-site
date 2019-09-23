@@ -2,12 +2,22 @@
 
 $(document).ready(function () {
 
-    $('.js--intro').waypoint(function (direction) {
-      if (direction == "down") {
-        $('nav').addClass('sticky');
-      } else {
-        $('nav').removeClass('sticky');
+    // $('.intro').waypoint(function (direction) {
+    //   if (direction == "down") {
+    //     $('nav').addClass('sticky');
+    //   } else {
+    //     $('nav').removeClass('sticky');
+    //   }
+    // }, {
+    //   offset: '60px;'
+    // });
+    var sticky = new Waypoint.Sticky({
+        element: $('.intro')[0]
+      }, {
+          offset: '50px'
       }
-    }, {
-      offset: '60px;'
-    });
+      
+      )
+
+     
+});
