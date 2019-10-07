@@ -230,6 +230,7 @@ padding: 0;
 
 .footer-link {
   padding: 25px;
+  margin: 0 75px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   text-decoration: none;
@@ -267,10 +268,6 @@ display: inline-block;
 }
 
 
-.intro {
-  /* line-height: 0.5;
-  margin: 0 auto;
-  padding: 50px 0; */
 
 }
 .stuck {
