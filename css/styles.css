@@ -75,6 +75,7 @@ footer {
   height: 125px;
   margin-top: 75px;
   padding-top: 50px;
+  padding-bottom: 50px;
   line-height: 2.25;
 }
 /***************************reusable elements******************/
@@ -147,7 +148,7 @@ footer {
 
 .copyright {
   color: #EAF6F6;
-  padding-top: 15px;
+  padding-top: 25px;
   font-family: 'Merriweather', serif;
   font-size: small;
   font-weight: 600;
@@ -229,8 +230,8 @@ padding: 0;
 }
 
 .footer-link {
-  padding: 25px;
-  margin: 0 75px;
+  padding: 5px;
+  margin: 0 25px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   text-decoration: none;
@@ -267,10 +268,13 @@ display: inline-block;
   color: #4183c4
 }
 
-
-
+.intro {
+  position: sticky;
+  top: 0px;
 }
-.stuck {
+
+
+/* .stuck {
   position:fixed;
   top: 0;
   left: 0;
@@ -278,4 +282,4 @@ display: inline-block;
   margin-top: 0px;
   
   
-}
+} */
