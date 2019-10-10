@@ -1,15 +1,6 @@
 /************************regular elements*******************/
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap');
 
-a {
-  color: #11999E;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #4d648d;
-}
-
 h1 {
   color: #66BFBF;
   font-family: 'Sacramento', cursive;
@@ -17,19 +8,22 @@ h1 {
   margin: 30px auto 0 auto;
 }
 
-h2 {
-  color: #66BFBF;
-  font-size: 2.5rem;
-  font-family: 'Montserrat', sans-serif;
-}
-
-h3 {
+h2, h3{
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
   text-align: center;
   margin: 5px auto;
   width: 50%;
+}
+
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+    font-weight: 800;
 }
 
 hr {
@@ -39,7 +33,6 @@ hr {
   border-width: 6px;
   border-color: #283655;
 }
-
 
 header {
   background-color: #283655;
@@ -65,65 +58,70 @@ body {
   text-align: center;
 }
 
-
 footer {
   background-color: #283655;
   height: 125px;
-  margin-top: 75px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  margin-top: 50px;
+  padding: 50px 0 125px;
   line-height: 2.25;
 }
-/***************************reusable elements******************/
+/***************************container elements******************/
 .row {
   margin: 50px auto;
   width: 70%;
-  text-align: left;
+  text-align: center;
   line-height: 1.6;
-  font-size: 16px;
-  
+  font-size: 16px; 
 }
 
 
 
-/***************************sections******************/
+/*************************** intro section******************/
+
+
+.profile-pic {
+  border-radius: 35%;
+  height: 250px;
+  width: auto;
+  /**padding-top: 25px;**/
+}
+
 
 .about-me {
   color: #40514E;
-  width: 30%;
+  width: 60%;
   margin: 0 auto;
-}
-
-
-
-.middle-container {
-  padding: 25px 0;
-
-}
-
-.above-contact {
-  width: 40%;
-  margin: 50px auto;
-}
-
-
-
-.skill-row {
-  margin: 50px auto;
-  width: 65%;
-  text-align: left;
+  text-align: justify;
   line-height: 2;
 }
 
-/*******************Experience***************/
+/*** Education */
 
-
-.experience li {
+.education {
+  margin: 50px auto;
   list-style: none;
-  padding: 10px 0;
   text-align: justify;
-  }
+}
 
+
+/***** Professional Experience */
+.experience {
+  margin: 50px auto;
+  list-style: none;
+  text-align: justify;
+}
+.experience li {
+  padding: 10px 0;
+  
+  }
+.flag-small {
+  width: 20px;
+  margin-right: 10px;
+  border-radius: 100%;
+}
+
+
+/** Publications */
 
 .publications li {
   list-style: none;
@@ -133,82 +131,28 @@ footer {
 }
 
 
-/***************************emphasis******************/
-.STEM {
-  text-decoration: underline;
+/* **************************Skills Table*****************/
+/*TODO Add skills tables***/
+/* .stars li {
+list-style: none;
+display: inline-block;
+}  */
+
+
+/***************************contact me section******************/
+
+.contact {
+  margin: 5px auto;
 }
 
-.subtitle {
-  font-weight: normal;
-}
-
-.copyright {
-  color: #EAF6F6;
-  padding-top: 25px;
-  font-family: 'Merriweather', serif;
-  font-size: small;
-  font-weight: 600;
-}
-
-
-/***************************images******************/
-
-.bottom-cloud {
-  position: absolute;
-  left: 300px;
-  bottom: 300px;
-}
-
-.top-cloud {
-  position: absolute;
-  top: 50px;
-  right: 300px;
-}
-
-.profile-pic {
-  border-radius: 35%;
-  height: 150px;
-  width: auto;
-  /**padding-top: 25px;**/
-}
-
-.apple-img {
-  width: 115px;
-  float: left;
-  border-radius: 50%;
-  margin-right: 15px;
-}
-
-.computer-img {
-  float: right;
-  width: 115px;
-  border-radius: 50%;
-  margin-left: 5px;
-}
-
-.flag-small {
-  width: 15px;
-  padding-right: 10px;
-  border-radius: 50px;
-}
-
-.model {
-width: 100%;
-padding: 0;
-
-}
-
-
-/***************************buttons******************/
-
-.testbutton {
+.contact-me-btn {
   font-family: Montserrat;
   color: #FFFFFF !important;
   font-size: 12px;
   text-shadow: 1px 1px 3px #66BFBF;
   box-shadow: 1px 1px 1px #BEE2F9;
   padding: 10px 25px;
-
+  margin: 5px auto;
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
   border-radius: 8px;
@@ -216,7 +160,7 @@ padding: 0;
   background: #66BFBF;
 }
 
-.testbutton:hover {
+.contact-me-btn:hover {
   color: #FFFFFF !important;
   background: #30e3cb;
   background: linear-gradient(top, ##30e3cb, #2bc4ad);
@@ -224,6 +168,11 @@ padding: 0;
   background: -webkit-gradient(linear, left top, left bottom, from(#30e3cb), to(#2bc4ad));
   background: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
 }
+
+
+
+
+/*************************** Footer Elements *****************/
 
 .footer-link {
   padding: 5px;
@@ -233,27 +182,11 @@ padding: 0;
   text-decoration: none;
 }
 
-
-
-/***************************buttons******************/
-
-.stars li {
-list-style: none;
-display: inline-block;
-}
-
-
-/*************************** Footer Elements *****************/
-
-.icon {
-  font-size: 200%;
-}
-
-.icon-social-facebook,
+.icon-social-linkedin,
 .icon-social-twitter,
 .icon-social-git-hub {
   transition: color 0.2s;
-
+  font-size: 200%;
 }
 
 .icon-social-linkedin:hover {
@@ -264,4 +197,12 @@ display: inline-block;
 }
 .icon-social-git-hub:hover {
   color: #4183c4
+}
+
+.copyright {
+  color: #EAF6F6;
+  padding-top: 25px;
+  font-family: 'Merriweather', serif;
+  font-size: small;
+  font-weight: 600;
 }
