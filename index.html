@@ -19,7 +19,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kevin Hall</title>
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="favicon.ico">
 </head>
@@ -27,24 +28,28 @@
 <body>
 
   <header>
-    <div class="intro">
+    <div class="container intro">
+
       <h1 class="subtitle">I'm Kevin.</h1>
       <h2>a <span class="STEM">STEM</span> educator.</h2>
+
     </div>
   </header>
 
   <section>
+    
+    <div class="container-fluid about dark">
       <img class="profile-pic " src="images/profilepic.jpg" alt="picture of Kevin">
-    <div class="row">
-      
-      <h2>Hello.</h2>
+      <h3 class="dark">Hello.</h3>
       <p class="about-me">My main focus is the development of computational thinking practices in
         secondary school students and teachers.I have been a secondary school science teacher in 4 different countries
-        before moving over to curriculum and instructional coaching. I put together my first computer over 20 years ago, and I have tried my best
+        before moving over to curriculum and instructional coaching. I put together my first computer over 20 years ago,
+        and I have tried my best
         throughout that time to stay tech savvy. I am currently focusing on learning to code and web development. </p>
+
+        <hr class="dark">
     </div>
-    <hr>
-    
+
 
     <!-- <div class="skills">
           <h3>Skills</h3>
@@ -56,25 +61,40 @@
             <li><p><ion-icon name="star"></ion-icon></p></li>
           </ul>
         </div> -->
-
-    <div class="row">
+    <div class="container-fluid education">
       <h3>Education</h3>
-      <ul class="education">
+      <ul class="education-ul">
         <li>
-          <p>
+          <p class=>
             M.Ed., Curriculum and Instruction | University of Illinois Champaign-Urbana| 2002
           </p>
         </li>
         <li>
-          <p>
+          <p class=>
             B.S., Ecology, Ethology, and Evolution | University of Illinois Champaign-Urbana | 1998
           </p>
         </li>
       </ul>
+      <h3>Illinois Secondary Teaching Certification</h3>
+      <h4></h4>
+      <ul class="education-ul">
+        <li>
+          <p class=>
+              HS (9-12) Biology, Botany, Chemistry, General Science, Physics, and Zoology
+          </p>
+        </li>
+        <li>
+          <p class=>
+              MG (6-8) Biological Science, General Science, Language Arts, and Physical Science
+          </p>
+        </li>
+      </ul>
+      <hr>
     </div>
 
-    <hr>
-    <div class="row">
+
+    <div class="container-fluid professional-experience dark">
+
       <h3>Professional Experience</h3>
       <ul class="experience">
         <li><img src="images/flags/us.svg" class="flag-small" alt="USA flag">Director of Curriculum Development CT-STEM
@@ -107,17 +127,19 @@
         <li><img src="images/flags/us.svg" class="flag-small" alt="USA flag">Research Biologist | University of Illinois
           Cancer Center | Chicago, Illinois | 1998 &ndash; 1999</li>
       </ul>
+      <hr class="dark">
     </div>
-    <hr>
-    <div class="row">
+    </div>
+   
+    <div class="container-fluid publication-container">
       <h3>Publications</h3>
-      <ul class="publications">
-        <li>
+      <ul class="list-group publications">
+        <li class="list-group-flush">
           Arastoopour Irgens, G., Dabholkar, S., Bain, C., Woods, P., Hall, K., Swanson, H., Horn, M., & Wilensky, U.
           (in review). Modeling and Measuring Students' Computational Thinking Practices in Science. Journal of
           Science Education and Technology
         </li>
-        <li>
+        <li class="list-group-flush">
           Swanson, H., Arastoopour Irgens, G., Bain, C., Hall, K., Woods, P., Rogge, C., Horn, M., Wilensky, U.
           (2018). <a
             href="https://pdfs.semanticscholar.org/0891/fee3d21c2625877dc36cca3deef9fa1f5e0e.pdf">Characterizing
@@ -128,14 +150,14 @@
       </ul>
     </div>
 
-    <hr>
-    <div class="row">
-      <p class="contact">Feel free to reach out if you have an interest in STEM education, Virtual Reality, or
+    <!-- <hr>
+    <div class="container">
+      <p class="center">Feel free to reach out if you have an interest in STEM education, Virtual Reality, or
         Star Trek </p>
-      
+
     </div>
     <a class="contact-me-btn" href="mailto:hi@kevinhall.info">CONTACT ME</a>
-  </section>
+  </section> -->
 
   <footer>
 
