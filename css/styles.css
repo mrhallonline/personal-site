@@ -191,7 +191,7 @@ iframe {
 
 .card,
 .card-body{
-	width: 300px;
+	width: 400px;
 	height: 400px;
 
 }
@@ -217,11 +217,20 @@ iframe {
 }
 
 /**Projects**/
-.projects-container {
+.projects-container-fluid {
 	background-color: #dfe6e9;
 	padding: 25px 0 10px;
 	width: 100%;
 	height: 800px;
+}
+
+.projects-container{
+	width: 80%;
+}
+
+.card-text {
+	text-align: center;
+	background-color: #dfe6e9;
 }
 
 /* **************************Skills Table*****************/
